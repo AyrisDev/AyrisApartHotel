@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Ücret Politikası",
+    "desc": "Fiyatlandırmamız oda tipine ve yılın zamanına göre değişir, ancak fiyatlarımızın rekabetçi olduğundan ve konaklama ve hizmetlerimizin olağanüstü kalitesini yansıttığından emin olabilirsiniz."
+  },
+  {
+    "id": "2",
+    "title": "Engelli Girişi",
+    "desc": "Unfortunately, we do not currently offer wheelchair accessibility due to the historic nature of our building."
+  },
+  {
+    "id": "3",
+    "title": "İade",
+    "desc": "Özür dileriz, ancak iptallerde geri ödeme yapılmaz. Ancak, rezervasyonunuzu daha sonraki bir tarih için yeniden planlamaktan memnuniyet duyarız."
+  },
+  {
+    "id": "4",
+    "title": "Check In-Out Kuralları",
+    "desc": "Check-in 14:00-23:00 saatleri arasında yapılabilir ve misafirler check-in sırasında geçerli bir kimlik ve kredi kartı göstermelidir. Talep üzerine ve doluluk durumuna bağlı olarak geç check-in yapılabilir. Check Out en geç saat 11:00`a kadar yapılmalıdır."
+  }
+]

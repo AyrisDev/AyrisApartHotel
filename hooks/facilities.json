@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "./svg/wifi.svg",
+    "title": "Yüksek Hız WiFi",
+    "desc": "Apartımızda 4.5G hızında wifi hizmeti sunulmaktadır. Müşterilerimize  yüksek hız ile kesintisiz bir wifi deneyimi sunulmaktadır. "
+  },
+  {
+    "id": 2,
+    "icon": "./svg/breakfast.svg",
+    "title": "Oda Kahvaltı",
+    "desc": "Apartımızın teras bölümünde konaklayan müşterilerimiz için açık büfe oda kahvaltı hizmeti sunulmaktadır."
+  },
+  {
+    "id": 3,
+    "icon": "./svg/sunbed.svg",
+    "title": "Ücretsiz Şezlong",
+    "desc": "Apartımıza 250m mesafede bulunan ve müşterilerimize özel olarak hazırlanmış kumsalda ücretsiz şezlong hizmeti sunulmaktadır."
+  },
+  {
+    "id": 4,
+    "icon": "./svg/tv.svg",
+    "title": "Smart TV",
+    "desc": "Netflix, Disney Plus, Amazon Prime ve Youtube gibi platformlar ücretsiz bir şekilde sunulmaktadır."
+  }
+]

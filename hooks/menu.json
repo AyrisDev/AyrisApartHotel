@@ -1,0 +1,30 @@
+[
+  {
+    "name": "rooms",
+    "url": "room"
+  },
+  {
+    "name": "Offers",
+    "url": "room"
+  },
+  {
+    "name": "Take a tour",
+    "url": "room"
+  },
+  {
+    "name": "blog",
+    "url": "room"
+  },
+  {
+    "name": "contact us",
+    "url": "room"
+  },
+  {
+    "name": "faq",
+    "url": "room"
+  },
+  {
+    "name": "lounge",
+    "url": "room"
+  }
+]
