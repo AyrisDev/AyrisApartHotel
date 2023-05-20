@@ -35,7 +35,7 @@ const footer = () => {
 
             {/* SiteMap*/}
             <div className="flex items-center justify-center mt-4 lg:w-full w-[300px] sm:w-[600px]">
-              <LoadScript googleMapsApiKey="AIzaSyBzWHf3htkxaqfu15xR6wEjqz3tIIvWqtk">
+              <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GA_API}>
                 <GoogleMap
                   mapContainerStyle={containerStyle}
                   center={center}

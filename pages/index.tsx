@@ -19,7 +19,7 @@ export default function Home({ posts }) {
 
 export const getServerSideProps = async () => {
   const res = await fetch(
-    "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJF2YX1pGtvxQRz5hGZmsQN-E&key=AIzaSyBzWHf3htkxaqfu15xR6wEjqz3tIIvWqtk"
+    "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJF2YX1pGtvxQRz5hGZmsQN-E&key={process.env.NEXT_PUBLIC_GA_API}"
   );
   const posts = await res.json();
 
