@@ -5,7 +5,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import faqq from "@/hooks/faq.json";
-function Icon({ id, open }) {
+function Icon({ id, open }: { id: any; open: any }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ function Icon({ id, open }) {
 const Faq = () => {
   const [open, setOpen] = useState(0);
 
-  const handleOpen = (value) => {
+  const handleOpen = (value: any) => {
     setOpen(open === value ? 0 : value);
   };
   return (
