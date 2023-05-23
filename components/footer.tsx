@@ -10,7 +10,7 @@ const center = {
   lng: 27.9463528,
 };
 
-const footer = () => {
+const Footer = () => {
   const ayrisApart = {
     center: {
       lat: 37.0195418,
@@ -65,4 +65,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

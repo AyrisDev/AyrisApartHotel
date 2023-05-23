@@ -21,7 +21,7 @@ function Icon({ id, open }) {
   );
 }
 
-const faq = () => {
+const Faq = () => {
   const [open, setOpen] = useState(0);
 
   const handleOpen = (value) => {
@@ -46,6 +46,7 @@ const faq = () => {
             <Fragment>
               {faqq.map((faqq: any) => (
                 <Accordion
+                  key={faqq.id}
                   className="w-full bg-white p-4 rounded-lg "
                   open={open === faqq.id}
                   icon={<Icon id={faqq.id} open={open} />}>
@@ -63,4 +64,4 @@ const faq = () => {
   );
 };
 
-export default faq;
+export default Faq;

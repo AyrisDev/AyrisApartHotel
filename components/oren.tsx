@@ -1,6 +1,6 @@
 import React from "react";
 import Location from "@/hooks/location.json";
-const oren = () => {
+const Oren = () => {
   return (
     <div className="mt-20 grid lg:grid-cols-2 grid-cols-1 justify-center text-[#292524] max-w-[1200px] overflow-hidden relative">
       <div className="flex justify-center flex-col">
@@ -55,4 +55,4 @@ const oren = () => {
   );
 };
 
-export default oren;
+export default Oren;

@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 
-const reviews = ({ posts }) => {
+const Reviews = ({ posts }) => {
   const google = posts.result.reviews;
   console.log(posts);
   return (
@@ -50,7 +50,9 @@ const reviews = ({ posts }) => {
           modules={[Pagination]}
           className="w-full h-full">
           {google.map((posts) => (
-            <SwiperSlide className="w-full h-full border-[4px] flex items-center justify-center">
+            <SwiperSlide
+              className="w-full h-full border-[4px] flex items-center justify-center"
+              key={posts.time}>
               <div className="flex flex-col justify-center text-center items-center font-monte space-y-4 m-2">
                 <span className="text-[#e7b623] font-bold text-[24px]">
                   {posts.rating} / 5
@@ -73,4 +75,4 @@ const reviews = ({ posts }) => {
   );
 };
 
-export default reviews;
+export default Reviews;

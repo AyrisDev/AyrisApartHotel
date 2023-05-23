@@ -1,6 +1,6 @@
 import React from "react";
 
-const book = () => {
+const Book = () => {
   return (
     <div className="relative w-full mt-16 text-center">
       <img
@@ -26,4 +26,4 @@ const book = () => {
   );
 };
 
-export default book;
+export default Book;

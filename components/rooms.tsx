@@ -1,6 +1,6 @@
 import React from "react";
 
-const rooms = () => {
+const Rooms = () => {
   return (
     <div className="flex justify-between lg:flex-row flex-col overflow-visible relative flex-none flex-nowrap  xl:space-x-36 space-x-24 ">
       <div className="flex  justify-items-start flex-col  lg:mx-[36px] relative xl:w-[600px]  lg:w-[400px] w-full">
@@ -49,4 +49,4 @@ const rooms = () => {
   );
 };
 
-export default rooms;
+export default Rooms;

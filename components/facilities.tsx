@@ -1,6 +1,6 @@
 import React from "react";
 import Faciliti from "@/hooks/facilities.json";
-const facilities = () => {
+const Facilities = () => {
   return (
     <div className="fles items-center flex-col min-h-min w-full relative mt-20 text-center">
       <div className="flex flex-col justify-center items-center mb-12">
@@ -28,4 +28,4 @@ const facilities = () => {
   );
 };
 
-export default facilities;
+export default Facilities;

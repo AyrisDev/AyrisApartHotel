@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const rms = () => {
+const Rms = () => {
   return (
     <div className="mt-20 flex flex-col justify-start flex-none flex-nowrap gap-4 min-h-min items-start max-w-[1200px] overflow-hidden relative w-full">
       <div className="flex flex-none gap-2 flex-col min-h-min overflow-visible relative z-1 w-full space-y-4">
@@ -90,4 +90,4 @@ const rms = () => {
   );
 };
 
-export default rms;
+export default Rms;
