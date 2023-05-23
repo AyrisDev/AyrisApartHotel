@@ -15,7 +15,7 @@ import Facilities from "../facilities";
 import Faq from "../faq";
 import Footer from "../footer";
 
-export default function Navbar({ posts }) {
+export default function Navbar({ posts }: { posts: any }) {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
