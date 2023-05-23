@@ -11,14 +11,6 @@ const center = {
 };
 
 const Footer = () => {
-  const ayrisApart = {
-    center: {
-      lat: 37.0195418,
-      lng: 27.9463528,
-    },
-    zoom: 17,
-  };
-
   return (
     <div className="bg-[#1c1917] w-full  max-h-fit text-[#fafaf9] font-monte relative mb-4">
       <div className=" container mx-auto px-10 ">
@@ -35,7 +27,8 @@ const Footer = () => {
 
             {/* SiteMap*/}
             <div className="flex items-center justify-center mt-4 lg:w-full w-[300px] sm:w-[600px]">
-              <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GA_API}>
+              <LoadScript
+                googleMapsApiKey={`${process.env.NEXT_PUBLIC_GA_API}`}>
                 <GoogleMap
                   mapContainerStyle={containerStyle}
                   center={center}
