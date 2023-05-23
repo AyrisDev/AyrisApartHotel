@@ -1,29 +1,36 @@
 [
   {
+    "id": 1,
     "name": "rooms",
     "url": "room"
   },
   {
+    "id": 2,
     "name": "Offers",
     "url": "room"
   },
   {
+    "id": 3,
     "name": "Take a tour",
     "url": "room"
   },
   {
+    "id": 4,
     "name": "blog",
     "url": "room"
   },
   {
+    "id": 5,
     "name": "contact us",
     "url": "room"
   },
   {
+    "id": 6,
     "name": "faq",
     "url": "room"
   },
   {
+    "id": 7,
     "name": "lounge",
     "url": "room"
   }

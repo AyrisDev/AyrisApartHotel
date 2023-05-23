@@ -81,7 +81,9 @@ export default function Navbar({ posts }) {
                 {/* Menu */}
                 <div className="flex flex-col md:text-[36px] text-[24px]  uppercase">
                   {Menu.map((menu) => (
-                    <span className="cursor-pointer hover:text-black hover:bg-white px-4">
+                    <span
+                      className="cursor-pointer hover:text-black hover:bg-white px-4"
+                      key={menu.id}>
                       <Link href={menu.url}>{menu.name}</Link>
                     </span>
                   ))}
