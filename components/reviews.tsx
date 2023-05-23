@@ -49,7 +49,7 @@ const Reviews = ({ posts }: { posts: any }) => {
           }}
           modules={[Pagination]}
           className="w-full h-full">
-          {google.map((posts) => (
+          {google.map((posts: any) => (
             <SwiperSlide
               className="w-full h-full border-[4px] flex items-center justify-center"
               key={posts.time}>
