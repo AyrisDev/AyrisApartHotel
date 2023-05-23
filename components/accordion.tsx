@@ -5,7 +5,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 
-function Icon({ id, open }) {
+function Icon({ id, open }: { id: any; open: any }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
