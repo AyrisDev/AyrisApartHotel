@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 
-const Reviews = ({ posts }) => {
+const Reviews = ({ posts }: { posts: any }) => {
   const google = posts.result.reviews;
   console.log(posts);
   return (
