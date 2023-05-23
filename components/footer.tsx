@@ -47,7 +47,7 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <hr class="h-px my-8 bg-[#ffffff33] border-0 dark:bg-gray-700 " />
+        <hr className="h-px my-8 bg-[#ffffff33] border-0 dark:bg-gray-700 " />
         <div className="grid grid-cols-1 pb-4  lg:grid-cols-3 items-center space-y-2 mb-4">
           <span className="flex justify-center">
             Developed with ︎🤍 by Ayris.Dev
