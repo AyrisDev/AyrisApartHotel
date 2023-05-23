@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import Navbar from "@/components/Navbar/Navbar";
 
-export default function Home({ posts }) {
+export default function Home({ posts }: { posts: any }) {
   return (
     <>
       <Head>
