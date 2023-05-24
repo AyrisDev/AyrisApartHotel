@@ -1,37 +1,22 @@
 [
   {
     "id": 1,
-    "name": "rooms",
-    "url": "room"
+    "name": "Odalarımız",
+    "url": "#"
   },
   {
     "id": 2,
-    "name": "Offers",
-    "url": "room"
+    "name": "Olanaklar",
+    "url": "#"
   },
   {
     "id": 3,
-    "name": "Take a tour",
-    "url": "room"
+    "name": "Ören Turu",
+    "url": "#"
   },
   {
     "id": 4,
-    "name": "blog",
-    "url": "room"
-  },
-  {
-    "id": 5,
-    "name": "contact us",
-    "url": "room"
-  },
-  {
-    "id": 6,
-    "name": "faq",
-    "url": "room"
-  },
-  {
-    "id": 7,
-    "name": "lounge",
-    "url": "room"
+    "name": "Blog",
+    "url": "#"
   }
 ]

@@ -76,7 +76,10 @@ export default function Navbar({ posts }: { posts: any }) {
                 {/* Logo */}
                 <div className="md:mb-24 mb-12">
                   {" "}
-                  <img src="./logowhite.png" className="w-24 h-24" />
+                  <img
+                    src="https://ipfs.io/ipfs/QmNyR2AHFoUEuEzHttCr9UNYjwSwW2kkLj3FL4gF2tiohD?filename=AyrisLogo.png"
+                    className="h-24"
+                  />
                 </div>
                 {/* Menu */}
                 <div className="flex flex-col md:text-[36px] text-[24px]  uppercase">
@@ -100,16 +103,15 @@ export default function Navbar({ posts }: { posts: any }) {
               <div className="flex justify-center  items-center flex-col lg:max-w-[500px]  m-auto lg:max-h-[600px]  md:max-h-[500px] max-h-[450px] border border-black ">
                 <div className="flex flex-col justify-center items-center  space-y-4 lg:px-32 lg:py-24  py-12  lg:max-w-[500px] ">
                   <span className="font-bold font-advent md:text-[90px] text-[70px] lg:mb-10 mt-10 text-center">
-                    Wallece Insider
+                    Erken Kayıt
                   </span>
 
-                  <span>%10 off</span>
+                  <span>%10 İndirim</span>
                   <Divider />
-                  <span>No Resort Fee</span>
+                  <span>Ücretsiz İptal</span>
                   <Divider />
-                  <span>Early Check-In</span>
+                  <span>Oda Seçme İmkanı</span>
                   <Divider />
-                  <span>Room Upgrades</span>
                 </div>
                 <div className=" ">
                   {" "}

@@ -1,11 +1,13 @@
 import React from "react";
-
+import Link from "next/link";
 export default function button() {
   return (
-    <button className="buttonBlack font-advent">
-      Button
-      <div className="buttonBlack__horizontal"></div>
-      <div className="buttonBlack__vertical"></div>
-    </button>
+    <Link href="https://wa.me/+905432318713">
+      <button className="buttonBlack font-advent">
+        Rezervasyon Yap
+        <div className="buttonBlack__horizontal"></div>
+        <div className="buttonBlack__vertical"></div>
+      </button>
+    </Link>
   );
 }

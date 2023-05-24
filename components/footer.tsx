@@ -1,5 +1,6 @@
 import React from "react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import Link from "next/link";
 const containerStyle = {
   width: "600px",
   height: "300px",
@@ -42,12 +43,19 @@ const Footer = () => {
         </div>
         <hr className="h-px my-8 bg-[#ffffff33] border-0 dark:bg-gray-700 " />
         <div className="grid grid-cols-1 pb-4  lg:grid-cols-3 items-center space-y-2 mb-4">
-          <span className="flex justify-center">
-            Developed with ︎🤍 by Ayris.Dev
-          </span>
+          <Link href="https://ayris.dev">
+            <span className="flex justify-center">
+              Developed with ︎🤍 by Ayris.Dev
+            </span>{" "}
+          </Link>
           <div className="flex flex-row justify-center">
-            <img className="w-8" src="./svg/wp.svg" />
-            <img className="w-8" src="./svg/insta.svg" />
+            <Link href="https://wa.me/+905432318713">
+              <img className="w-8" src="./svg/wp.svg" />{" "}
+            </Link>
+            <Link href="https://www.instagram.com/ayrisapart">
+              {" "}
+              <img className="w-8" src="./svg/insta.svg" />{" "}
+            </Link>
           </div>
           <span className="flex lg:justify-end justify-center ">
             @2023 Ayris Apart Otel

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Book = () => {
   return (
     <div className="relative w-full mt-16 text-center">
@@ -18,9 +18,11 @@ const Book = () => {
           Aradığınız ister aile tatili veya şirket tatili olsun, konaklamanızı
           unutulmaz kılmak için ihtiyacınız olan her şeye sahibiz.
         </span>
-        <button className="bg-[#292524] text-white p-4 rounded-2xl hover:bg-[#78716c] font-cormo font-bold">
-          Rezervasyon Yap
-        </button>
+        <Link href="https://wa.me/+905432318713">
+          <button className="bg-[#292524] text-white p-4 rounded-2xl hover:bg-[#78716c] font-cormo font-bold">
+            Rezervasyon Yap
+          </button>
+        </Link>
       </div>
     </div>
   );
