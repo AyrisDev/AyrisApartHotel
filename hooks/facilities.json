@@ -9,7 +9,8 @@
     "id": 2,
     "icon": "./svg/breakfast.svg",
     "title": "Oda Kahvaltı",
-    "desc": "Apartımızın teras bölümünde konaklayan müşterilerimiz için açık büfe oda kahvaltı hizmeti sunulmaktadır. *Değişiklik gösterebilir lütfen bilgi alınız*"
+    "desc": "Apartımızın teras bölümünde konaklayan müşterilerimiz için açık büfe oda kahvaltı hizmeti sunulmaktadır.",
+    "desc2": "*Değişiklik gösterebilir lütfen bilgi alınız*"
   },
   {
     "id": 3,
@@ -21,6 +22,7 @@
     "id": 4,
     "icon": "./svg/tv.svg",
     "title": "Smart TV",
-    "desc": "Netflix, Disney Plus, Amazon Prime ve Youtube gibi platformlar ücretsiz bir şekilde sunulmaktadır. *Değişiklik gösterebilir lütfen bilgi alınız*"
+    "desc": "Netflix, Disney Plus, Amazon Prime ve Youtube gibi platformlar ücretsiz bir şekilde sunulmaktadır.",
+    "desc2": "*Değişiklik gösterebilir lütfen bilgi alınız*"
   }
 ]

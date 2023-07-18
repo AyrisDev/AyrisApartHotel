@@ -21,6 +21,9 @@ const Facilities = () => {
             <span className="text-[16px] font-monte text-[#1c1917] text-center">
               {faciliti.desc}
             </span>
+            <span className="text-[8px] font-monte text-[#1c1917] font-medium text-center">
+              {faciliti.desc2}
+            </span>
           </div>
         ))}
       </div>
