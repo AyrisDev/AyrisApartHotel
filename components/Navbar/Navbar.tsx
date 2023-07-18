@@ -9,7 +9,7 @@ import Link from "next/link";
 import Rooms from "../rooms";
 import Rms from "../rms";
 import Oren from "../oren";
-import Reviews from "../reviews";
+
 import Book from "../book";
 import Facilities from "../facilities";
 import Faq from "../faq";
@@ -129,7 +129,7 @@ export default function Navbar({ posts }: { posts: any }) {
             <Rooms />
             <Rms />
             <Oren />
-            <Reviews posts={posts} />
+
             <Book />
             <Facilities />
             <Faq />
