@@ -27,18 +27,7 @@ const Footer = () => {
             </div>
 
             {/* SiteMap*/}
-            <div className="flex items-center justify-center mt-4 lg:w-full w-[300px] sm:w-[600px]">
-              <LoadScript
-                googleMapsApiKey={`${process.env.NEXT_PUBLIC_GA_API}`}>
-                <GoogleMap
-                  mapContainerStyle={containerStyle}
-                  center={center}
-                  zoom={15}>
-                  {/* Child components, such as markers, info windows, etc. */}
-                  <></>
-                </GoogleMap>
-              </LoadScript>
-            </div>
+            <div className="flex items-center justify-center mt-4 lg:w-full w-[300px] sm:w-[600px]"></div>
           </div>
         </div>
         <hr className="h-px my-8 bg-[#ffffff33] border-0 dark:bg-gray-700 " />
