@@ -19,10 +19,7 @@ const Rms = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", damping: 10 }}
               className="w-full h-full ">
-              <img
-                src="https://ipfs.io/ipfs/QmNx2KBU7gSj2tKD97KZaKnRp3aSUs4zfHAdEtbjRJn4Jw?filename=1.webp"
-                className="w-full h-full object-fit"
-              />
+              <img src="/6.jpg" className="w-full h-full object-fit" />
             </motion.div>
             <div className="absolute bottom-10 left-10 flex flex-col  ">
               <span className=" font-monte leading-6 tracking-widest   text-[16px] ">
@@ -46,7 +43,7 @@ const Rms = () => {
               transition={{ type: "spring", damping: 10 }}
               className="w-full h-full ">
               <img
-                src="https://ipfs.io/ipfs/QmeUseXfBEtwdFYWs1YWpS7rgQBL7bj5wqTewDaSz218b9?filename=6.webp"
+                src="/5.jpg"
                 className="w-full h-full object-fit lg:object-cover"
               />
             </motion.div>
@@ -73,10 +70,7 @@ const Rms = () => {
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", damping: 10 }}
             className="w-full h-full ">
-            <img
-              src="https://ipfs.io/ipfs/QmUeHnE2Kpv4Ybs7YxCyCnewiUdDq1X2SqtbBQYKe4impu?filename=7.webp"
-              className="w-full h-full object-cover"
-            />
+            <img src="/7.jpg" className="w-full h-full object-cover" />
           </motion.div>
           <div className="absolute bottom-10 left-10 flex flex-col ">
             <span className=" font-monte leading-6 tracking-widest    text-[16px] ">

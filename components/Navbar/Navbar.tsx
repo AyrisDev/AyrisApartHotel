@@ -74,11 +74,11 @@ export default function Navbar({ posts }: { posts: any }) {
                   </svg>
                 </div>
                 {/* Logo */}
-                <div className="md:mb-24 mb-12">
+                <div className="md:mb-24 mb-12 justify-center items-center flex">
                   {" "}
                   <img
-                    src="https://ipfs.io/ipfs/QmNyR2AHFoUEuEzHttCr9UNYjwSwW2kkLj3FL4gF2tiohD?filename=AyrisLogo.png"
-                    className="h-24"
+                    src="/logoa.png"
+                    className="h-24 justify-center items-center flex"
                   />
                 </div>
                 {/* Menu */}
